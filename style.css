@@ -3,6 +3,8 @@
 {
     box-sizing: border-box;
     font-family:'Arial';
+    margin: 0;
+    padding: 0;
 }
 
 body
@@ -96,7 +98,7 @@ hr.solid {
     width:70vw;
     max-width: 700px;
     margin: auto;
-    padding-top: 5%;
+    padding-top: 10%;
     margin-bottom: 10vw;
     display: grid;
     align-items: center; 
@@ -107,6 +109,7 @@ hr.solid {
 a
 {
     text-decoration: none;
+    text-align: center;
 }
 
 a:link {
@@ -120,10 +123,15 @@ a:visited {
   
   /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: darkred;
 }
   
   /* selected link */
 a:active {
     color: black;
+}
+
+.Folders a
+{
+    font-size: 1.5vw;
 }
