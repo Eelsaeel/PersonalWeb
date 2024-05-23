@@ -1,0 +1,34 @@
+
+body
+{
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.grid-box
+{
+    background: #eee;
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.grid-box > div
+{
+    background: #ccc;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-box > div:nth-child(1)
+{
+    grid-column: 1 / span 2;
+}
+
+.grid-box > div:nth-child(2)
+{
+    grid-column: span 3;
+}

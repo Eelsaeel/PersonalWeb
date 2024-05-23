@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&display=swap');
+*
+{
+    box-sizing: border-box;
+    font-family:'Arial';
+}
+
+body
+{
+    min-height: 100vh;
+    background-color: white;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+ul
+{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+li > a > img
+{
+    width: 2vw;
+}
+
+.left li
+{
+    padding-left: 5vw;
+    list-style-type: none;
+}
+.right li
+{
+    padding-right:5vw;
+    align-content: center;
+    list-style-type: none;
+}
+.right
+{
+    margin-right: 5%;
+}
+
+div
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+.Folders
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center; 
+    padding-bottom: 10%;
+    column-gap: 10%;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.Folders > a > img
+{
+    width: 100%;
+}
+.Projects > p, .Experience > p
+{
+    font-family:'Arial';
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+
+.Projects, .Experience
+{
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.About_Me
+{
+    width:70vw;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 5%;
+    margin-bottom: 10vw;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+  
+  /* visited link */
+a:visited {
+    color: black;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: hotpink;
+}
+  
+  /* selected link */
+a:active {
+    color: black;
+}
